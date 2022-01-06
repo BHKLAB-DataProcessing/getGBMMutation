@@ -1,12 +1,12 @@
 input_dir <- "/pfs/downloadGBMData/"
 cell_dir <- "/pfs/getGBMCellData/"
 out_dir <- "/pfs/out/" 
-functions <- "/pfs/getGBMCellData/functions.R"
+# functions <- "/pfs/getGBMCellData/functions.R"
 
 # input_dir <- "~/Documents/pfs/downloadGBMData/"
 # cell_dir <- "~/Documents/pfs/getGBMCellData/"
 # out_dir <- "~/Documents/pfs/getGBMMutation/" 
-# functions <- "./functions.R"
+functions <- "https://github.com/BHKLAB-Pachyderm/getGBMCellData/raw/main/functions.R"
 
 source(functions)
 load(paste0(input_dir, "Ensembl.v99.annotation.RData"))
